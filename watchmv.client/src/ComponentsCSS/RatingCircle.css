@@ -1,0 +1,34 @@
+.rating-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    bottom:35px;
+    background-color:black;
+    border-radius:30px;
+}
+
+    .rating-circle canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.percent {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.rating-number {
+    font-size: 17px;
+    font-weight: bold;
+    color: #21d07a;
+}

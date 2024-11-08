@@ -1,0 +1,105 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.85); /* Adjust for better visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    color: white;
+    transition: opacity 0.3s ease; /* Add transition for smooth fade */
+}
+
+    .overlay p {
+        color: white;
+    }
+
+.modal {
+    background: #101010; /* Slightly lighter black */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+    z-index: 9999;
+    position: relative;
+    color: white;
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    overflow-y: auto; /* Permite el desplazamiento dentro del cuerpo del modal */
+    max-height: 60vh; /* Limita la altura del contenido desplazable */
+}
+
+    .modal-body input {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+    .modal-footer button {
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        width: 45%;
+        transition: background-color 0.3s ease, opacity 0.3s ease; /* Add smooth transition */
+    }
+
+        .modal-footer button:last-of-type {
+            background-color: #dc3545;
+        }
+
+        .modal-footer button:hover {
+            background-color: #0056b3; /* Darker blue for hover effect */
+            opacity: 0.9;
+        }
+
+
+.card-icon {
+    width: 40px;
+    height: auto;
+    margin-left: 20px;
+    vertical-align: middle;
+    background-color: white;
+}
+
+.payment-error {
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}

@@ -1,0 +1,186 @@
+/* Overall series detail container */
+.series-detailD {
+    padding: 20px;
+    animation: fadeInD 0.5s ease-in;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+/* Series header styles */
+.series-headerD {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.series-back-buttonD {
+    background-color: gray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+    .series-back-buttonD:hover {
+        background-color: #0056b3;
+    }
+
+.series-logoD {
+    height: 50px;
+}
+
+.series-perfil-iconD {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Series header content styles */
+.series-header-contentD {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+}
+
+.series-posterD {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.series-infoD {
+    max-width: 800px;
+}
+
+    .series-infoD h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .series-infoD p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #666;
+    }
+
+/* Series details styles */
+.series-detailsD {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+    .series-detailsD li {
+        margin-bottom: 10px;
+    }
+
+.series-actors-titleD {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    top: 10px;
+    position: relative;
+}
+
+/* Carousel actor item styles */
+.series-actor-itemD {
+    text-align: center;
+    margin: 0 10px;
+    flex-shrink: 0;
+    width: 200px;
+    transition: transform 0.3s ease;
+    position: relative;
+    left: 100px;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+    .series-actor-itemD img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .series-actor-itemD img:hover {
+            transform: scale(1.05);
+        }
+
+    .series-actor-itemD p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #333;
+    }
+
+/* Notification styles */
+.series-notificationD {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Animation styles */
+@keyframes fadeInD {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Carousel container styles */
+.carousel-container-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 1000px; /* Control the carousel width */
+}
+
+/* Carousel button styles */
+.carousel-button-custom {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+    .carousel-button-custom:hover {
+        background-color: #555;
+    }
+
+/* Carousel styles */
+.carousel-custom {
+    display: flex;
+    overflow: hidden;
+    width: 800px;
+    justify-content: space-around;
+}

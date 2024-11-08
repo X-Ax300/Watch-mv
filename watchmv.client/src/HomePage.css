@@ -1,0 +1,393 @@
+@font-face {
+    font-family: 'PersonFonts';
+    src: url('assets/fonts/CharisSILB.ttf') format('truetype');
+}
+.body {
+    color: black;
+}
+
+.Logo1 {
+    top: 9px;
+    left: 390px;
+    font-size: 20px;
+    align-content: center;
+    position: relative;
+    width: 400px;
+}
+
+.LogOutIcon {
+    top: 55px;
+    left: 60px;
+    font-size: 50px;
+    align-content: center;
+    position: absolute;
+    width:20px;
+}
+
+.SubscriptionButton {
+    position: relative;
+    bottom: 60px;
+    left: 1500px;
+    font-size: 18px;
+    align-content: center;
+    width: 200px;
+    color:yellow;
+    
+}
+
+.PerfilIcon {
+    position: relative;
+    bottom:100px;
+    left: 1760px;
+    font-size: 50px;
+    align-content: center;
+    width: 200px;
+}
+
+.HeaderHomePage {
+    position: relative;
+    z-index: 10000;
+    height: 60px;
+}
+
+.Welcome {
+    color: #212121;
+}
+
+.Welabel{   
+    position: absolute;
+    left: 40px;
+    font-size: 200px;
+    top: 120px;
+    font-family: 'PersonFonts';
+    color: #D4C9C9;
+}
+.Welabel2{
+    position: absolute;
+    left: 40px;
+    font-size: 200px;
+    top: 320px;
+    font-family: 'PersonFonts';
+    color: #D4C9C9;
+}
+
+.Welabel3{
+    position: absolute;
+    left: 40px;
+    font-size: 200px;
+    top: 520px;
+    font-family: 'PersonFonts';
+    color: #D4C9C9;
+}
+
+.welcomeVideo {
+    position:static;
+    
+    bottom:100px;
+    width: 1856px;
+    height: 1000px;
+    border: none;
+}
+
+.videoOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+}
+
+.Bar{
+    position:absolute;
+    top:990px;
+    width: 100%;
+    height: 118px;
+    display: block;
+    box-shadow: 0px 43px 20px 0px rgba(0, 0, 0, 0.25);
+    background-color: #525252;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 20px;
+    color:black;
+}
+
+
+
+
+
+.Pelicula{
+    position:absolute;
+    top:10px;
+    left:100px;
+    width: 114px;
+    height: 34px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 1;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    color: #d4c9c9;
+    font-size: 26px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+}
+
+.Serie{
+    position: absolute;
+    top: 10px;
+    left: 340px;
+    width: 114px;
+    height: 34px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 1;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    color: #d4c9c9;
+    font-size: 26px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+}
+
+.Gente{
+    position: absolute;
+    top: 10px;
+    left: 560px;
+    width: 114px;
+    height: 34px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    z-index: 1;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    color: #d4c9c9;
+    font-size: 26px;
+    letter-spacing: 0em;
+    line-height: 1.2;
+}
+
+.PeliculaDropdown {
+    position:absolute;
+    top:60px;
+    left:56px;
+    color:black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.PeliculaDropdownS {
+    position: absolute;
+    top: 60px;
+    left: 310px;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.PeliculaDropdownG {
+    position: absolute;
+    top: 60px;
+    left: 500px;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.PeliculaDropdownI {
+    position: absolute;
+    top: 50px;
+    left: 1250px;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.SearchBox {
+    position: absolute;
+    color: black;
+    top: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 200px;
+    left: 1500px;
+}
+.TreText {
+    position: relative;
+    top: 90px;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    height: 200px;
+    font-size: 50px;
+    left: 15px;
+}
+
+.Treding {
+    position: relative;
+}
+
+.PoText {
+    position: relative;
+    top: 90px;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    height: 200px;
+    font-size: 50px;
+    left: 15px;
+}
+
+.Popular {
+    box-shadow: 0px 0px 16px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 38px;
+
+
+}
+
+.PoTrailerTrue {
+    position: relative;
+    top: 1100px;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    height: 200px;
+    font-size: 50px;
+    left: 15px;
+}
+
+.TrailerTrue {
+    top: 300px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    display: block;
+    box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.25);
+    background-color: #3b3b3b;
+    overflow: hidden;
+    z-index: 1;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.movie-container {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    justify-content: center;
+}
+
+.movie-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+.movie-details {
+    margin-top: 10px;
+    color: white;
+}
+
+.PoTextSe {
+    position: absolute;
+    top:2800px;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    height: 200px;
+    font-size: 50px;
+    left: 15px;
+}
+
+.Series {
+    position: relative;
+}
+
+.series-container {
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    position: relative;
+    color: white;
+    bottom: 0;
+    top:1200px;
+    height:60px;
+    font-size: 20px;
+    left: 0;
+    width: 100%;
+    background: #212121;
+    text-align: left;
+}
+
+.SearchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #1a1a1a;
+}
+
+.search-result-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    background-color: #282828;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 200px;
+}
+
+    .search-result-item:hover {
+        transform: scale(1.05);
+    }
+
+.search-result-poster {
+    width: 100%;
+    height: auto;
+}
+
+.search-result-details {
+    padding: 10px;
+    text-align: center;
+}
+
+    .search-result-details h3 {
+        margin: 5px 0;
+        font-size: 1.2rem;
+        color: #f5f5f5;
+    }
+
+    .search-result-details p {
+        margin: 0;
+        font-size: 1rem;
+        color: #d5d5d5;
+    }
+.LanguageHome {
+    position: relative;
+    left: 1300px;
+    color: #cac0c0;
+    font-family: "Charis SIL", "Charis SIL Placeholder", serif;
+    height: 200px;
+    font-size: 25px;
+}

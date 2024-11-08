@@ -1,0 +1,171 @@
+/* src/ComponentsCSS/PersonDetail.css */
+.person-detailD {
+    padding: 20px;
+    animation: fadeInD 0.5s ease-in;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.headerD {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .headerD .back-buttonD {
+        background-color: gray;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+        .headerD .back-buttonD:hover {
+            background-color: #0056b3;
+        }
+
+    .headerD .logoD {
+        width: 400px;
+    }
+
+    .headerD .perfil-iconD {
+        font-size: 2rem;
+        color: #007BFF;
+        cursor: pointer;
+    }
+
+        .headerD .perfil-iconD:hover {
+            color: #0056b3;
+        }
+
+.contentD {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-headerD {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: gainsboro;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1500px;
+    left: 160px;
+    position: relative;
+}
+
+.person-posterD {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.person-infoD {
+    max-width: 800px;
+}
+
+    .person-infoD h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .person-infoD p {
+        font-size: 1.2rem;
+        line-height: 1.6;
+        color: #666;
+    }
+
+.movies-titleD {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.movie-itemD {
+    text-align: center;
+    margin: 0 10px;
+    flex-shrink: 0;
+    width: 200px;
+    transition: transform 0.3s ease;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 9px;
+}
+
+    .movie-itemD img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+        .movie-itemD img:hover {
+            transform: scale(1.05);
+        }
+
+    .movie-itemD p {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #333;
+    }
+
+.actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+    .actions button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        background-color: #007BFF;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .actions button:hover {
+            background-color: #0056b3;
+        }
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+@keyframes fadeInD {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

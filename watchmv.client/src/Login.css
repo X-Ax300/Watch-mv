@@ -1,0 +1,248 @@
+@font-face {
+    font-family: 'PersonFonts';
+    src: url('assets/fonts/CharisSILB.ttf') format('truetype');
+}
+
+
+.LogoWMV {
+    top: 0px;
+    left: 682px;
+    font-size: 50px;
+    align-content: center;
+    position: absolute;
+}
+
+    .LogoWMV img {
+        max-width: 100%;
+        width: 525px;
+        height: auto;
+    }
+
+.LogIName {
+    background: #E8E8E8;
+    color: black;
+    position: absolute;
+    right: 200px;
+    top: 250px;
+    width: 500px;
+    height: 500px;
+    border-radius: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
+}
+
+    .LogIName.expanded {
+        
+        height: 600px; 
+    }
+
+.titleLogin {
+    top: -10px;
+    left: 160px;
+    bottom: 349px;
+    right: 160px;
+    position: absolute;
+    font: charis;
+    font-family: 'PersonFonts';
+    font-size: 55px;
+    z-index: 1;
+}
+
+.inputContainer.expanded {
+    width: 440px;
+    height: 10px;
+    transition: width 0.3s ease-in-out;
+    font-size: 20px;
+    top: 370px;
+}
+
+.inputContainer {
+    position: absolute;
+    font-family: 'PersonFonts';
+    height:100px;
+    width:450px;
+    top: 400px;
+    right: 250px;
+    font-size:70px;
+    z-index: 2;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.email, .password, .name, .tryPassword {
+    position: absolute;
+    font-size: 20px;
+    z-index: 3;
+    transition: all 0.3s ease;
+}
+
+.name {
+    right: 230px;
+    top: 10px;
+}
+
+.tryPassword {
+    right: 230px;
+    top: 10px;
+    font-size: 20px;
+}
+
+.email {
+    right: 230px;
+    top: 10px;
+}
+
+.password {
+    right: 230px;
+    top: 10px;
+}
+
+.nameInput{
+    block-size:10px;
+}
+
+#emailInput, #passwordInput, #nameInput, #tryPasswordInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.inputWrapper {
+    position: relative;
+}
+
+    .inputWrapper.focus .email {
+        right: 230px;
+        top: -15px;
+    }
+
+    .inputWrapper.focus .password {
+        right: 230px;
+        top: -15px;
+    }
+
+    .inputWrapper.focus .name {
+        right: 230px;
+        top: -15px;
+    }
+
+    .inputWrapper.focus .tryPassword {
+        right: 230px;
+        top: -15px;
+    }
+
+ .inputField{ /* Ojo aqui */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    color: black;
+    position: relative;
+}
+
+    .inputField label {
+        margin-bottom: 5px;
+        width: 200px;
+    }
+
+    .inputField input {
+        all: unset;
+        text-align: justify;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 12px;
+        font-size: 20px;
+        box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .inputField.expanded input {
+        transition: width 0.3s ease-in-out;
+    }
+
+.loginButton {
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: #555;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 13px 0;
+    position: relative;
+    left: 190px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
+    bottom: 15px;
+}
+
+    .loginButton:hover {
+        background-color: #555;
+        border-color: #555;
+    }
+
+.signUpMessage {
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.containerCarrousel {
+    left: 375px;
+    position: relative;
+    bottom:44px;
+}
+
+    .containerCarrousel.expanded {
+        left: 373px;
+        top: 7px; 
+    }
+
+.BtnSignUp {
+    all: unset;
+    border: none;
+    color: dodgerblue;
+    font-size: 16px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.errorPopup {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: maroon;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #E8E8E8;
+    z-index: 1000; 
+}
+.BtnErrorPopup{
+    color:white;
+}
+
+.successPopup {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px white;
+    z-index: 1000;
+}
